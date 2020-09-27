@@ -16,6 +16,7 @@ window.addEventListener("scroll", function () {
 $(window).scrollTop(0);
 //--- SIDENAV ---//
 $(document).ready(function () {
+  gsap.from(".catch-phrase", { opacity: 0,delay:0.5, duration: 1, y: 10 });
   $(".sidebarBtn").click(function () {
     $(".sidebar").toggleClass("active");
   });
@@ -33,9 +34,11 @@ tl.fromTo(
 );
 
 gsap.from(".row", { opacity: 0,delay:0.5, duration: 1.2, y: 60 });
+
 gsap.from(".collections-wrapper", { opacity: 0, duration: 1.2, y: 60 });
 gsap.from(".projects-container", { opacity: 0, duration: 1.2, y: 60 });
 gsap.from(".collections-page-text", { opacity: 0, duration: 1.2, x: 60 });
+gsap.from(".contact-details", { opacity: 0, duration: 1.2, x: 60 });
 
 gsap.from(".navlinks-1", { opacity: 0,delay:0.5, duration: 1.2, x: 60 });
 gsap.from(".navlinks-2", { opacity: 0,delay:0.8, duration: 1.2, x: 60 });
