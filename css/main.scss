@@ -258,9 +258,7 @@ section {
   @media only screen and (min-width: 1200px) {
     display: none;
   }
-  @media (orientation:landscape )and (min-width: 1200px) {
-    display: grid;
-  }
+ 
   @media only screen and (max-width: 600px) {
     padding-right: 0;
     height: 40px;
@@ -500,7 +498,7 @@ section {
       position: absolute;
       text-align: left;
       top: -40%;
-      left: -20%;
+      left: -27%;
     }
 
     @media only screen and (max-width: 900px) {

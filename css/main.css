@@ -287,12 +287,6 @@ section {
   }
 }
 
-@media (orientation: landscape) and (min-width: 1200px) {
-  .menu-icon {
-    display: grid;
-  }
-}
-
 @media only screen and (max-width: 600px) {
   .menu-icon {
     padding-right: 0;
@@ -540,7 +534,7 @@ section {
     position: absolute;
     text-align: left;
     top: -40%;
-    left: -20%;
+    left: -27%;
   }
 }
 
