@@ -16,7 +16,7 @@ window.addEventListener("scroll", function () {
 $(window).scrollTop(0);
 //--- SIDENAV ---//
 $(document).ready(function () {
-  gsap.from(".catch-phrase", { opacity: 0,delay:0.5, duration: 1, y: 10 });
+  gsap.from(".catch-phrase", { opacity: 0,delay:0.6, duration: 1, y: 10 });
   $(".sidebarBtn").click(function () {
     $(".sidebar").toggleClass("active");
   });
