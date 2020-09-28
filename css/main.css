@@ -167,6 +167,12 @@ section {
   }
 }
 
+@media (orientation: landscape) and (max-width: 1400px) {
+  .navbar .desktop-nav-links {
+    display: none;
+  }
+}
+
 .current-page {
   text-decoration: underline;
 }
@@ -278,6 +284,12 @@ section {
 @media only screen and (min-width: 1200px) {
   .menu-icon {
     display: none;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1200px) {
+  .menu-icon {
+    display: grid;
   }
 }
 
@@ -2689,6 +2701,21 @@ section {
     padding-right: 0;
     margin-left: 20%;
     margin-right: 20%;
+  }
+  .outer-modal .inner-modal img {
+    max-height: 750px;
+    max-width: 100%;
+    position: relative;
+    top: 0;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .outer-modal .inner-modal {
+    padding-right: 0;
+    margin-left: 28%;
+    margin-right: 28%;
+    justify-content: initial;
   }
   .outer-modal .inner-modal img {
     max-height: 750px;
