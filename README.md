@@ -1,6 +1,6 @@
 # Cristinas-website
 
-Work in progress: https://flamboyant-raman-a89f78.netlify.app/index.html
+Work in progress: https://cc-art-gallery.firebaseapp.com/index.html
 
 ISSUES DISCUSSED IN MEETING:
 
